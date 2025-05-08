@@ -25,9 +25,9 @@ spring:
         master:
           type: ${spring.datasource.type}
           driverClassName: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://122.51.186.204:3306/ruoyi-ai?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&autoReconnect=true&rewriteBatchedStatements=true
-          username: dev_user
-          password: Admin@9000
+          url: jdbc:mysql://XXXXXX:3306/ruoyi_ai?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&autoReconnect=true&rewriteBatchedStatements=true
+          username: root
+          password: XXXXXX
 
       hikari:
         # 最大连接池数量
@@ -57,7 +57,7 @@ spring.data:
     # 数据库索引
     database: 0
     # 密码(如没有密码请注释掉)
-    password: Admin@9000
+    password: XXXXX
     # 连接超时时间
     timeout: 10S
 redisson:
